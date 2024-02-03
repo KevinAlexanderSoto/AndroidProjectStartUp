@@ -7,6 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
 import com.kalex.android_project_startup.databinding.FragmentFirstBinding
+import com.kalex.core.common.networkstates.handleViewModelState
 
 /**
  * A simple [Fragment] subclass as the default destination in the navigation.
@@ -31,7 +32,6 @@ class FirstFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
         binding.buttonFirst.setOnClickListener {
             findNavController().navigate(R.id.action_FirstFragment_to_SecondFragment)
         }

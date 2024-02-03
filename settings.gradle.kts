@@ -15,4 +15,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "Android-project-startUp"
 include(":app")
- 
+include(":core")

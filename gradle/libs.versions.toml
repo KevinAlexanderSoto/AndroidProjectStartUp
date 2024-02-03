@@ -1,15 +1,16 @@
 [versions]
-coil = "2.5.0"
 compileSdk = "34"
-constraintlayout = "2.1.4"
-koinAndroid = "3.5.3"
 minSdk = "26"
-navigationUiKtx = "2.7.6"
 targetSdk = "34"
 versionName = "1.0.0"
 versionCode = "1"
-kotlinCompilerExtensionVersion = "1.5.2"
+kotlinCompilerExtensionVersion = "1.5.3"
 
+coil = "2.5.0"
+navigationUiKtx = "2.7.6"
+constraintlayout = "2.1.4"
+epoxy = "5.1.1"
+koinAndroid = "3.5.3"
 biometric = "1.2.0-alpha05"
 material3 = "1.2.0-alpha01"
 playServicesAds = "22.6.0"
@@ -73,6 +74,8 @@ androidx-ui-graphics = { module = "androidx.compose.ui:ui-graphics", version.ref
 androidx-activity-compose = { module = "androidx.activity:activity-compose", version.ref = "activity-compose" }
 androidx-animation = { module = "androidx.compose.animation:animation", version.ref = "animation" }
 coil = { module = "io.coil-kt:coil", version.ref = "coil" }
+epoxy = { module = "com.airbnb.android:epoxy", version.ref = "epoxy" }
+epoxy-processor = { module = "com.airbnb.android:epoxy-processor", version.ref = "epoxy" }
 koin-android = { module = "io.insert-koin:koin-android", version.ref = "koinAndroid" }
 material3 = { module = "androidx.compose.material3:material3", version.ref = "androidx-material3" }
 
