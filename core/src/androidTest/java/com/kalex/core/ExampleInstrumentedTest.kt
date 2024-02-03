@@ -1,5 +1,11 @@
 package com.kalex.core
 
+import androidx.test.ext.junit.runners.AndroidJUnit4
+import androidx.test.platform.app.InstrumentationRegistry
+import junit.framework.TestCase.assertEquals
+import org.junit.Test
+import org.junit.runner.RunWith
+
 /**
  * Instrumented test, which will execute on an Android device.
  *
@@ -11,6 +17,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("com.kalex.dogescollection.core.test", appContext.packageName)
+        assertEquals("com.kalex.core.test", appContext.packageName)
     }
 }
