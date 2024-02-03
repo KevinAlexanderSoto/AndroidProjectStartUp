@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!--primary color-->
+    <color name="CyanProcess" >#30BCED</color>
+    <color name="CyanProcessligth" >#7DCFEC</color>
+    <color name="CyanProcessligthnes" >#BEE4F1</color>
+
+    <!--<color name="Primary" >#00668a</color>
+    <color name="OnPrimary" >#ffffff</color>
+    <color name="PrimaryContainer" >#c3e8ff</color>
+    <color name="OnPrimaryContainer" >#001e2c</color>-->
+
+    <color name="Primary" >#48680d</color>
+    <color name="OnPrimary" >#ffffff</color>
+    <color name="PrimaryContainer" >#c9f088</color>
+    <color name="OnPrimaryContainer" >#121f00</color>
+
+    <!--secondary color -->
+    <color name="Secondary" >#396661</color>
+    <color name="OnSecondary" >#ffffff</color>
+    <color name="SecondaryContainer" >#bcece6</color>
+    <color name="OnSecondaryContainer" >#00201d</color>
+
+    <!--secondary color -->
+   <!-- <color name="Secondary" >#4e616d</color>
+    <color name="OnSecondary" >#ffffff</color>
+    <color name="SecondaryContainer" >#d1e5f4</color>
+    <color name="OnSecondaryContainer" >#0a1e28</color>-->
+
+    <!--tertiary color -->
+    <color name="Tertiary" >#006c4e</color>
+    <color name="OnTertiary" >#ffffff</color>
+    <color name="TertiaryContainer" >#86f8ca</color>
+    <color name="OnTertiaryContainer" >#002115</color>
+
+    <!--surface color -->
+    <color name="Surface" >#fdfcff</color>
+    <color name="OnSurface" >#1a1c1e</color>
+    <color name="SurfaceVariant" >#dfe2eb</color>
+    <color name="OnSurfaceVariant" >#43474e</color>
+
+
+    <color name="colorOnBackground" >#1a1c1e</color>
+    <color name="colorOutline" >#73777f</color>
+
+    <!--Success color-->
+    <color name="Aquamarine"  >#A5FFD6</color>
+    <color name="aquamarineligth">#D8FFED</color>
+    <color name="aquamarineligthnes">#EEFAF4</color>
+
+    <!--Error color-->
+    <color name="RedSalsa">#F05D5E</color>
+
+    <!--Warning color-->
+    <color name="OldGold" >#D5B942</color>
+
+    <!--por definir color-->
+    <color name="OuterSpaceCrayola" >#1F363D</color>
+</resources>
