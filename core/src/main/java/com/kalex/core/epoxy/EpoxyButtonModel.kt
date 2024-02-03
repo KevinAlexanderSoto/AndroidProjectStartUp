@@ -10,7 +10,7 @@ import com.kalex.core.common.epoxyhelpers.KotlinEpoxyHolder
 @EpoxyModelClass()
 abstract class EpoxyButtonModel : EpoxyModelWithHolder<EpoxyButtonModel.Holder>() {
     override fun getDefaultLayout(): Int {
-        return R.layout.authentication_buttom
+        return R.layout.authentication_buttom //TODO: Rename the layouts
     }
 
     @EpoxyAttribute
