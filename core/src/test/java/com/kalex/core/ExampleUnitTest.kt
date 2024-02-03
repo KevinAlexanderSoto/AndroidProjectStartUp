@@ -1,8 +1,4 @@
-package com.kalex.dogescollection.core
-
-import org.junit.Test
-
-import org.junit.Assert.*
+package com.kalex.core
 
 /**
  * Example local unit test, which will execute on the development machine (host).
