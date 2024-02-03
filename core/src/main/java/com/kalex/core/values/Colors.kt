@@ -1,4 +1,4 @@
-package com.kalex.dogescollection.core.values
+package com.kalex.core.values
 
 import androidx.compose.material3.lightColorScheme
 import androidx.compose.ui.graphics.Color

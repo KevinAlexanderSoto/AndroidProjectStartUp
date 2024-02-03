@@ -1,4 +1,4 @@
-package com.kalex.dogescollection.core.values
+package com.kalex.core.values
 
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontFamily
