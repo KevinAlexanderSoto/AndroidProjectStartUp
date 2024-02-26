@@ -50,13 +50,18 @@ dependencies {
     implementation(libs.androidx.navigation.fragment.ktx)
     implementation(libs.navigation.ui.ktx)
     implementation(libs.androidx.material)
-    
+
+
+
     // Koin section
     implementation (libs.koin.android)
+    implementation (libs.koin.androidx.compose)
 
     // Retrofit
     implementation(libs.retrofit)
-
+    // Gson for Android
+    implementation (libs.converter.gson)
+    
     // Coroutines
     implementation(libs.kotlinx.coroutines.core)
     implementation(libs.kotlinx.coroutines.android)
